@@ -1,0 +1,172 @@
+---
+title: Módulo 3
+authors: 
+  - name: Juan Pablo Siracusa
+    department: Department of Industrial Enginnering
+    affiliation: Facultad de Ingenieria UNCUYO
+    location: Mendoza, Argentina
+    email: jpsb2013@gmail.com 
+  - name: Mariana Mut
+    department: Department of Industrial Enginnering
+    affiliation: Facultad de Ingenieria UNCUYO 
+    location: Mendoza, Argentina
+    email: mutmariana04@gmail.com 
+  - name: Isabella Morandini Monteverdi
+    department: Department of Industrial Enginnering
+    affiliation: Facultad de Ingenieria UNCUYO
+    location: Mendoza, Argentina
+    email: isa.morandini03@gmail.com 
+  - name: Ana Gordillo
+    Department: Department of Industrial Enginnering
+    affiliation: Facultad de Ingenieria UNCUYO
+    location: Mendoza, Argentina
+    email: gordilloa121@gmail.com 
+  - name: Genovese Luciano
+    department: Department of Industrial Enginnering
+    affiliation: Facultad de Ingenieria UNCUYO
+    location: Mendoza, Argentina
+    email: luchogenovese8@gmail.com 
+  - name: Tomás Raby
+    department: Department of Industrial Enginnering
+    affiliation: Facultad de Ingenieria UNCUYO
+    location: Mendoza, Argentina
+    email: tomyraby@gmail.com 
+abstract: |
+  Enter the text of your abstract here.
+bibliography: references.bib
+biblio-style: apa
+output: rticles::arxiv_article
+---
+
+# Modelado y Simulación de eventos discretos
+
+En la siguiente sección se presenta un resumen del capítulo "Introducción al modelado y la simulación".
+
+## Introducción
+  
+El modelado y la simulación son pilares fundamentales en la comprensión y predicción del comportamiento de sistemas complejos en diversas disciplinas científicas y técnicas. Desde la ingeniería hasta la biología, estas herramientas permiten explorar y analizar fenómenos que de otro modo serían difíciles de estudiar en entornos reales. En este documento, exploraremos los conceptos básicos del modelado y la simulación, así como su aplicación práctica en la simulación por ordenador. Examincaremos cómo los modelos matemáticos representan sistemas complejos y discutiremos la importancia de establecer marcos experimentales claros para garantizar la validez de los resultados. Este análisis proporcionará una comprensión sólida de cómo el modelado y la simulación impulsan la investigación y el desarrollo científico en diversas áreas del conocimiento.
+
+## Conceptos fundamentales
+
+### Definición de términos fundamentales:
+
+El texto inicia ofreciendo una definición exhaustiva de los conceptos esenciales del modelado y la simulación. Estos campos, intrínsecamente interdisciplinarios, abarcan una amplia gama de disciplinas, desde la ingeniería y la física hasta las ciencias sociales y la biología. Se resalta la importancia crítica de comprender y predecir el comportamiento de sistemas complejos en diferentes contextos, lo cual constituye el núcleo central de la actividad de modelado y simulación.
+
+### Jerarquía del conocimiento sobre un sistema:
+
+Una parte fundamental del texto es la presentación de una jerarquía detallada que describe los niveles de conocimiento sobre un sistema. Esta jerarquía comienza con la simple identificación de la existencia del sistema, pasando por la comprensión superficial de su funcionamiento hasta llegar a un conocimiento profundo de su estructura interna y sus interacciones. Este marco conceptual proporciona una estructura sólida para entender cómo se desarrollan y aplican los modelos en la simulación de sistemas reales.
+
+### Tipos de modelos:
+
+El texto explora en profundidad los diversos tipos de modelos utilizados en el proceso de simulación. Se hace especial hincapié en los modelos mentales, verbales, físicos y matemáticos. Aunque cada tipo de modelo tiene su utilidad, se destaca la importancia crítica de los modelos matemáticos en la simulación por ordenador. Estos modelos ofrecen la capacidad única de representar de manera precisa y cuantitativa el comportamiento de sistemas complejos, lo que los convierte en herramientas indispensables en una amplia gama de disciplinas.
+
+### Utilización de modelos y simulaciones:
+
+Se aborda la necesidad y la conveniencia de utilizar modelos y simulaciones en lugar de experimentos directos en ciertas situaciones. Esto puede ser debido a una variedad de razones, que van desde restricciones de seguridad y costos prohibitivos hasta la imposibilidad de acceder al sistema real en cuestión. El texto subraya la importancia de establecer marcos experimentales claros y definidos, que delimiten los objetivos y condiciones del estudio, para garantizar la validez y la utilidad de los resultados obtenidos a través del modelado y la simulación.
+
+### Marco formal para el modelado y la simulación:
+
+Se presenta un marco formal que desglosa los componentes clave del proceso de modelado y simulación. Estos incluyen el sistema fuente, la base de datos del comportamiento, el modelo, el simulador y el marco experimental. Se exploran las relaciones entre estos componentes y se discute su papel integral en el proceso de simulación. Este marco proporciona una guía sistemática para la planificación, el desarrollo y la ejecución de simulaciones efectivas y significativas.
+
+### Clasificación de modelos matemáticos:
+
+El texto examina con detalle la clasificación de los modelos matemáticos utilizados en la simulación. Se distingue entre modelos deterministas y estocásticos, estáticos y dinámicos, destacando las características y aplicaciones únicas de cada tipo. Además, se explora cómo los modelos de tiempo discreto y de eventos discretos difieren en la representación del tiempo en la simulación. Esta clasificación proporciona una base sólida para la selección y aplicación adecuada de modelos matemáticos en una variedad de contextos de simulación.
+
+## Modelado y Simulación de Tiempo Discreto
+
+Los modelos de tiempo discreto son estructuras fácilmente comprensibles, ya que sus variables cambian solo en intervalos de tiempo específicos y constantes. En estos modelos, el reloj de simulación avanza en pasos equidistantes, representando instantes de tiempo discretos. En cada uno de estos instantes, el modelo se encuentra en un estado particular, recibe entradas y produce salidas, lo que permite calcular las salidas futuras y el próximo estado.
+
+Estos modelos encuentran aplicaciones en diversos campos, incluyendo la descripción de circuitos digitales y como aproximaciones de modelos continuos, donde el paso de tiempo se define mediante un intervalo de discretización.
+
+### Descripción de Modelos de Tiempo Discreto
+
+Los modelos de tiempo discreto pueden describirse mediante tablas de transición/salidas, especialmente útiles para sistemas con un número finito de estados y entradas. Estas tablas muestran cómo las combinaciones de estados y entradas afectan las salidas y el próximo estado. Además, se pueden representar de forma más general utilizando funciones de transición de estado y salida, que describen cómo evolucionan el estado y la salida con respecto al tiempo.
+
+### Simulación de Modelos de Tiempo Discreto
+
+La simulación de modelos de tiempo discreto se realiza utilizando algoritmos que calculan las trayectorias del estado y la salida del modelo en función de la trayectoria de entrada y el estado inicial. Estos algoritmos avanzan en pasos de tiempo discretos, calculando el estado y la salida en cada paso basándose en las funciones de transición de estado y salida.
+
+### Autómatas Celulares
+
+Los autómatas celulares son modelos que poseen una estructura regular y cuyo comportamiento se rige por un conjunto de reglas uniformes. Pueden describir sistemas biológicos y se componen de células conectadas en una red espacial. Estos modelos son útiles para simular una amplia gama de fenómenos, como el crecimiento de cristales, reacciones químicas, comportamiento de colonias y tráfico vehicular, entre otros.
+
+## Modelado y Simulación de Eventos Discretos
+
+Los modelos de tiempo discreto y de eventos discretos comparten la característica de que las variables del modelo cambian solo en ciertos momentos, manteniéndose constantes el resto del tiempo. La diferencia radica en cómo se manejan estos momentos. Los modelos de tiempo discreto avanzan en pasos equiespaciados, mientras que los de eventos discretos permiten intervalos variables entre eventos consecutivos, siempre que el número de eventos en cualquier intervalo finito sea finito. Se introducen dos metodologías para describir modelos de eventos discretos: el modelado orientado a la planificación de eventos y el modelado orientado a los procesos.
+
+### Modelado Orientado a la Planificación de Eventos
+
+Este enfoque define los modelos de eventos discretos especificando qué eventos pueden ocurrir y cómo se relacionan causalmente entre sí. Se describe un algoritmo de simulación para este tipo de modelos, que incluye rutinas de inicialización, de tiempo, de eventos y de informes. El flujo de la simulación comienza con la inicialización, seguido por la determinación del próximo evento, la ejecución de ese evento y la generación de informes al finalizar la simulación.
+
+### Modelado Orientado a los Procesos
+
+Esta metodología se centra en describir la circulación de entidades a través del sistema, tomando el punto de vista de las entidades y sus procesos. Se menciona la aparición de lenguajes de simulación de propósito general en la década de 1970, que traducen automáticamente la descripción orientada a los procesos a una orientada a la planificación de eventos. Se describen los entornos de simulación actuales, que proporcionan interfaces intuitivas para la descripción del modelo, como AnyLogic, Arena, etc.
+
+### Modelado de una Oficina de Atención al Público
+
+Se presenta un ejemplo de modelado para ilustrar las diferencias entre el enfoque orientado a la planificación de eventos y el orientado a los procesos. El modelo describe una oficina de atención al público con un empleado, donde los clientes pueden llegar y ser atendidos. Se explican los flujos de acciones asociadas a los eventos de llegada de clientes, fin de servicio y finalización de la simulación. Se muestra cómo este modelo puede describirse tanto utilizando la metodología de planificación de eventos como la orientada a los procesos, utilizando el entorno de simulación Arena como ejemplo.
+
+## Pasos en un estudio de simulación
+
+### Definición del problema y planificación del proyecto:
+
+Antes de abordar un problema, es crucial definirlo claramente y planificar adecuadamente. Esto implica comprender los objetivos del estudio, asegurarse de tener los recursos necesarios y considerar todos los factores que puedan afectar el éxito del proyecto.
+
+### Definición del sistema y formulación del modelo:
+
+El modelado implica identificar las características esenciales del sistema y simplificarlas para servir a los objetivos del estudio. Se describe un enfoque para construir el modelo de manera iterativa, comenzando con una versión simple y refinándola gradualmente.
+
+### Diseño de los experimentos:
+
+El diseño experimental se realiza en dos etapas: primero, antes de que el diseño del modelo esté completo, y luego, después de la verificación y validación del modelo. Se destaca la importancia de diseñar experimentos que proporcionen la máxima información con el menor costo posible.
+
+### Datos de entrada:
+
+Determinar qué datos utilizar como entrada al modelo durante la simulación es crucial para el éxito del estudio. Esto puede implicar recopilar y analizar datos del sistema y modelar las entradas en función de esos datos.
+
+### Traducción del modelo:
+
+El modelo puede describirse formalmente utilizando diferentes metodologías y herramientas de software. Se mencionan algunas de estas herramientas y se señala la importancia de elegir la metodología y la herramienta adecuadas para el tipo de modelo.
+
+### Verificación y validación del modelo:
+
+La verificación se centra en asegurarse de que el modelo esté correctamente codificado, mientras que la validación implica confirmar que el modelo sea una representación adecuada de la realidad para los objetivos del estudio. Se describen varios procedimientos para verificar y validar un modelo.
+
+### Experimentación y análisis de los resultados:
+
+Se distinguen dos tipos de simulación de modelos estocásticos: con terminación y sin terminación. Se discuten las consideraciones estadísticas para el diseño experimental y el análisis de resultados en cada tipo de simulación.
+
+### Documentación y aplicación de los resultados:
+
+Finalmente, se destaca la importancia de documentar adecuadamente el modelo y los resultados del estudio para su posterior reutilización y aplicación. Se subraya que la validación del modelo es un proceso continuo y que los resultados deben interpretarse en función de los objetivos específicos del estudio.
+
+## Analisis de datos: Introducción a R
+
+### Introducción al análisis de datos en proyectos de simulación:
+
+El análisis de datos es crucial en los proyectos de simulación, tanto para comprender el comportamiento del sistema bajo estudio como para extraer conclusiones de los datos generados por la simulación del modelo. Algunos entornos de simulación ofrecen herramientas para el análisis de datos, como representación gráfica y ajuste de distribuciones de probabilidad, pero muchos otros no incluyen estas funciones, especialmente las herramientas de simulación gratuitas.
+
+### La importancia del análisis de datos en proyectos de simulación:
+
+La falta de herramientas de análisis integradas en algunos entornos de simulación implica la necesidad de utilizar herramientas externas para el análisis y modelado de datos. En este contexto, se destaca la diversidad de herramientas especializadas disponibles para este propósito.
+
+### Introducción al lenguaje R y su plataforma:
+
+Una de estas herramientas es el lenguaje R, junto con su plataforma de software. R es un software gratuito y de código abierto disponible para diversos sistemas operativos, incluyendo Windows, Mac OS X y Linux. Puede descargarse desde el Comprehensive R Archive Network (CRAN).
+
+### Características principales del lenguaje R:
+
+R es un lenguaje interpretado que distingue entre mayúsculas y minúsculas. Permite la ejecución de comandos tanto de forma interactiva en la consola como mediante la ejecución de scripts. Ofrece una amplia variedad de tipos de datos, incluyendo vectores, matrices, data frames y listas.
+
+### Funcionalidades y sintaxis básica de R:
+
+La mayor parte de la funcionalidad en R se logra mediante el uso de funciones, tanto las proporcionadas por el lenguaje como las definidas por el usuario. Las sentencias en R consisten en funciones y asignaciones, utilizando el símbolo <- para asignaciones. Los comentarios se indican con el símbolo #, y para salir de una sesión de R se utiliza la función q().
+
+### Ejemplo de uso de funciones básicas en R:
+
+Se proporciona un ejemplo de creación de un objeto vector en R utilizando la función c() para almacenar una serie de valores. Además, se muestra cómo crear un gráfico básico utilizando la función plot() para visualizar los datos almacenados en el vector creado previamente.
+
+
+## Referencias Bibliográficas
+
+Capitulo 1 "Introducción al modelado y la simulación" Moraleda, A. U., & Villalba, C. M. (2013). Modelado y simulación de Eventos Discretos. UNED Editorial.
