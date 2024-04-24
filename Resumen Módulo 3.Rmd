@@ -48,10 +48,6 @@ El modelado y la simulación son pilares fundamentales en la comprensión y pred
 
 ## Conceptos fundamentales
 
-### Definición de términos fundamentales:
-
-El texto inicia ofreciendo una definición exhaustiva de los conceptos esenciales del modelado y la simulación. Estos campos, intrínsecamente interdisciplinarios, abarcan una amplia gama de disciplinas, desde la ingeniería y la física hasta las ciencias sociales y la biología. Se resalta la importancia crítica de comprender y predecir el comportamiento de sistemas complejos en diferentes contextos, lo cual constituye el núcleo central de la actividad de modelado y simulación.
-
 ### Jerarquía del conocimiento sobre un sistema:
 
 Una parte fundamental del texto es la presentación de una jerarquía detallada que describe los niveles de conocimiento sobre un sistema. Esta jerarquía comienza con la simple identificación de la existencia del sistema, pasando por la comprensión superficial de su funcionamiento hasta llegar a un conocimiento profundo de su estructura interna y sus interacciones. Este marco conceptual proporciona una estructura sólida para entender cómo se desarrollan y aplican los modelos en la simulación de sistemas reales.
